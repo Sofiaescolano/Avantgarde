@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--https://monoskop.org/Avant-garde_and_modernist_magazines#mediaviewer/File:Blok_6-7_1924.jpg>-->
+	<title>BLOK</title>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	display: inline-block;
+}
+a{
+		list-style-type: none;
+		text-decoration: none;
+		font-family: 'Oswald', sans-serif;
+		color: #de4c2b;
+}
+nav ul li{
+	margin: 0 0px 0 0;
+}
+nav ul li:first-child{
+	margin-right: 10%;
+}
+nav ul li:nth-child(2){
+	margin-right: 10%;
+}
+body{
+	background: #e4d9c3;
+}
+.container{
+	text-align: center;
+	width: 1280px;
+	display: table;
+}
+#rojo{
+  	text-align: center;
+	font-size: 20em;
+	font-family: 'Abril Fatface', cursive;
+	color: #de4c2b;
+}
+#azul{
+	margin-left: 2%;
+	top: 90px;
+	position: absolute;
+	letter-spacing: 44px;
+	font-size: 8em;
+	font-family: 'Oswald', sans-serif;
+	color: #1f4c93;
+}
+#frase{
+	margin-left: 30%;
+	position: absolute;
+	top: 270px;
+	font-size: 2.5em;
+	font-family: 'Macondo', cursive;
+	color: #1f4c93;
+}
+ul{
+	text-decoration: none;
+	text-align: center;
+	color: #de4c2b;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+
+}
+#bordeh{
+	margin-top: 50px;
+	margin-left: 360px;
+	position: relative;
+	border: 0.3em solid #de4c2b;
+	width: 500px;
+}
+#bordev{
+	transform: rotate(90deg);
+	width: 500px;
+	margin-top: 240px;
+	margin-left: 100px;
+	position: relative;
+	border: 0.3em solid #de4c2b;
+}
+#vertical{
+	font-size: 3em;
+	font-family: 'Oswald', sans-serif;
+	color: #de4c2b;
+	position: absolute;
+	top: 800px;
+	transform: rotate(90deg);
+}
+#b{
+	left: 400px;
+	top: 600px;
+	position: absolute;
+	font-size: 20em;
+	font-family: 'Oswald', sans-serif;
+	color: #1f4c93;
+}
+#cena{
+	left: 1000px;
+	top: 1200px;
+	position: absolute;
+	background: #1f4c93;
+	width: 10%;
+	font-size: 1em;
+	font-family: 'Oswald', sans-serif;
+
+}
+img{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 550px;
+	left: 800px;
+}
+/* Landscape */
+@media only screen and (max-width: 600px){
+	/* Landscape styles */
+	body{
+		background: black;
+	}
+	.container{
+		width: 100%;
+		margin: 0;
+	}
+}
+</style>
+</head>
+<body>
+	<main>
+		<div class="container">
+			<p id="rojo">BLOK</p>
+		</div>
+		<div class="container">
+			<p id="azul">KURJER BLOKU</p>
+		</div>
+		<header class="container">
+			<nav>
+				<ul>
+					<li><a href="#" title="">REVUE</a></li>
+					<li><a href="#" title="">INTERNATIONALE</a></li>
+					<li><a href="#" title="">D'AVANGARDE</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="bordeh"></div>
+		<div id="bordev"></div>
+		<img src="images/canoa.jpg">
+		<div class="container">
+			<p id="frase">Spezielle Informationsnummer</p>
+				<p id="vertical">Varsovie-Pologne Wspolna 20</p>
+				<p id="b">B</p>
+		</div>
+	</main>
+	<footer>
+		<div id="cena">
+			<p>CENA 5</p>
+		</div>
+	</footer>
+</body>
+</html>
